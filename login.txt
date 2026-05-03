@@ -1,0 +1,21 @@
+curl 'https://staging.ender.com.pl/?_m=Admin&_o=Login' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
+  -H 'accept-language: pl-PL,pl;q=0.5' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundaryGfw7XPBLUQBtwAaf' \
+  -b 'hermes2010_WebsiteSession=7d3e5789599360a25a982773ff2e4975; hermes2010_CMSSession=61b13c88bc989e95254134ae31aa9a49; hermes2010_defaultSession=9e4f90660f0ea33329893d0087483516' \
+  -H 'origin: https://staging.ender.com.pl' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=0, i' \
+  -H 'referer: https://staging.ender.com.pl/?_m=Admin&_o=Login' \
+  -H 'sec-ch-ua: "Brave";v="147", "Not.A/Brand";v="8", "Chromium";v="147"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-gpc: 1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36' \
+  --data-raw $'------WebKitFormBoundaryGfw7XPBLUQBtwAaf\r\nContent-Disposition: form-data; name="_token"\r\n\r\n1510882023\r\n------WebKitFormBoundaryGfw7XPBLUQBtwAaf\r\nContent-Disposition: form-data; name="adminName"\r\n\r\nexample\r\n------WebKitFormBoundaryGfw7XPBLUQBtwAaf\r\nContent-Disposition: form-data; name="password"\r\n\r\nexample\r\n------WebKitFormBoundaryGfw7XPBLUQBtwAaf\r\nContent-Disposition: form-data; name="_login"\r\n\r\nLogin\r\n------WebKitFormBoundaryGfw7XPBLUQBtwAaf\r\nContent-Disposition: form-data; name="web_form_name"\r\n\r\nloginForm\r\n------WebKitFormBoundaryGfw7XPBLUQBtwAaf\r\nContent-Disposition: form-data; name="web_form_page"\r\n\r\nhttps://hermes.oke.waw.pl/?_m=Admin&_o=Login\r\n------WebKitFormBoundaryGfw7XPBLUQBtwAaf--\r\n'
